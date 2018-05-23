@@ -1,0 +1,39 @@
+@import "./../assets/scss/style.scss";
+:host {
+    height: 100%;
+}
+
+.mat-toolbar {
+    background-color: $p_dark;
+    color: $white;
+    .branding {
+        padding-right: 30px;
+        display: flex;
+        flex-direction: column;
+        .bran_img {
+            width: 32px;
+            margin: 11px 0 0 68px;
+        }
+        .bran_text {
+            font-size: 15px;
+            opacity: $font_pd_w_large;
+        }
+    }
+    .nav_items {
+        margin-left: auto;
+        opacity: $font_pd_w_large;
+    }
+}
+
+.content {
+    padding-top: 64px;
+    flex: 1 0 auto;
+    position: relative;
+}
+
+.footer {
+    flex: 0 0 auto;
+    padding: 0 15px;
+    text-align: center;
+    z-index: 1;
+}
